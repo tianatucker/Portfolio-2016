@@ -10,12 +10,12 @@ body {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	margin: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Merriweather Sans', sans-serif;
 }
-
 
 /*Logo*/
 .thick-t {
@@ -23,7 +23,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
 	font-size: 6.5em;
 	color: #666;
-	transform: translateY(-.15em);
+	transform: translateY(-.2em);
+	display: inline-flex;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 .thin-t {
@@ -31,7 +34,75 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 100;
 	font-size: 5.8em;
 	color: #64DDDD;
-	transform: translate(-.65em,-.06em);
+	transform: translate(-.70em,-.26em);
+	display: inline-flex;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 /*Nav*/
+
+.top-nav {
+	background-color: #fff;
+	display: flex;
+	width: 100%;
+	z-index: 9999;
+	border-bottom: 1px solid #ddd;
+}
+
+.nav div li {
+	list-style-type: none;
+	display: inline;
+}
+
+.nav div li a {
+	color: #64dddd;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-decoration: none;
+}
+
+.nav li a i {
+	padding-right: .3em;
+}
+
+.nav li a i:hover, .nav li a:hover {
+	color: #3FC8C8;
+}
+
+.nav-links > li > a {
+	color: #838994;
+	text-decoration: none;
+	margin: .7em;
+}
+
+#logo {
+	max-width: 1.5em;
+	margin-top: 1em;
+}
+
+.top-nav .nav-links {
+    float: right;
+    margin-top: 1.5rem;
+    -webkit-font-smoothing: antialiased;
+}
+.top-nav .nav-links li {
+    display: inline-block;
+    margin-left: .7rem;
+}
+.top-nav .nav-links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-nav .nav-links a:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.logo {
+	width: 50%;
+}
+
+.section-links {
+	width: 50%;
+}
