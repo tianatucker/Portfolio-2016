@@ -113,8 +113,44 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	background-color: #666;
 	color: #fff;
-	padding-top: 5em;
-	padding-bottom: 5em;
+	padding-top: 6em;
+	padding-bottom: 6em;
 	margin-top: 1em;
+	background-repeat: radial-gradient(circle, white 10%, transparent 10%),
+radial-gradient(circle, white 10%, black 10%) 50px 50px;
 
+}
+
+/*Work Section*/
+
+.text-center {
+	text-align: center;
+}
+
+.Noblis {
+	background-image: url('../img/Noblis-Portfolio.svg');
+	background-position: center;
+	background-size: 20em;
+	height: 20em;
+	width: 50%;
+	background-repeat: no-repeat;
+	float: right;
+}
+.Morning-Envelope {
+	background-image: url('../img/MorningEnvelope-Portfolio.svg');
+	background-position: center;
+	background-size: 20em;
+	height: 20em;
+	width: 50%;
+	background-repeat: no-repeat;
+}
+
+.StyleCable {
+	background-image: url('../img/StyleCable-Portfolio.svg');
+	background-position: center;
+	background-size: 20em;
+	height: 20em;
+	width: 50%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
 }
