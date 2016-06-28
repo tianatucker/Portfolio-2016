@@ -131,26 +131,61 @@ radial-gradient(circle, white 10%, black 10%) 50px 50px;
 	background-image: url('../img/Noblis-Portfolio.svg');
 	background-position: center;
 	background-size: 20em;
-	height: 20em;
-	width: 50%;
+	height: 16em;
+	width: 33%;
 	background-repeat: no-repeat;
-	float: right;
+	float: left;
 }
 .Morning-Envelope {
 	background-image: url('../img/MorningEnvelope-Portfolio.svg');
 	background-position: center;
 	background-size: 20em;
-	height: 20em;
-	width: 50%;
+	height: 16em;
+	width: 33%;
 	background-repeat: no-repeat;
+	float: left;
 }
 
 .StyleCable {
 	background-image: url('../img/StyleCable-Portfolio.svg');
 	background-position: center;
 	background-size: 20em;
-	height: 20em;
-	width: 50%;
+	height: 16em;
+	width: 33%;
 	background-repeat: no-repeat;
-	margin: 0 auto;
+	float: left;
+}
+
+.company-type {
+	margin-top: 60%;
+	margin-bottom: 2%;
+	font-weight: lighter;
+}
+
+.work-type {
+	margin-top: 0px;
+	font-weight: lighter;
+}
+
+.content {
+	height: 21em;
+	margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1275px) {
+	.StyleCable, .Morning-Envelope, .Noblis {
+		height: 12em;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.StyleCable, .Morning-Envelope, .Noblis {
+		width:100%;
+		margin-bottom: 5%;
+		height: 14em;
+	}
+	.company-type {
+		margin-top: 28%;
+		margin-bottom: auto;
+	}
 }
