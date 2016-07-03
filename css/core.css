@@ -17,6 +17,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Merriweather Sans', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*Logo*/
 .thick-t {
 	font-family: 'Raleway', sans-serif;
@@ -168,13 +172,53 @@ radial-gradient(circle, white 10%, black 10%) 50px 50px;
 }
 
 .content {
-	height: 21em;
+	height: 18em;
 	border-bottom: 10%;
+}
+
+.work {
+	padding-top: 2em;
+}
+
+/*About*/
+.about {
+	padding-top: 1.5em;
+}
+
+/*Contact*/
+
+hr {
+	margin-top: 4em;
+}
+
+.social {
+	list-style: none;
+	display: inline-flex;
+	padding: 0px;
+}
+
+.social-space {
+	padding-right: 2em;
+}
+
+.icon-space {
+	padding-right: .5em;
+}
+
+.social-space > a {
+	color: #3FC8C8;
+}
+
+.social-space > a:hover {
+	color: #64dddd;
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1275px) {
 	.StyleCable, .Morning-Envelope, .Noblis {
 		height: 12em;
+	}
+	.about {
+		margin-top: 6em;
 	}
 }
 
@@ -253,9 +297,12 @@ radial-gradient(circle, white 10%, black 10%) 50px 50px;
 	}
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
 	.StyleCable > h5 {
 		margin-top: 16em;
+	}
+	.StyleCable > h5 > h6 {
+		margin-bottom: 8em;
 	}
 	.company-type {
 		margin-top: 14em;
@@ -268,16 +315,8 @@ radial-gradient(circle, white 10%, black 10%) 50px 50px;
 		margin-bottom: 10%;
 		margin-top: 3em;
 	}
-}
+	hr {
+	margin-top: 8em;
+	}
 
-/*@media only screen and (max-width: 1000px) {
-	.StyleCable, .Morning-Envelope, .Noblis {
-		width:100%;
-		margin-bottom: 4%;
-		height: 12em;
-	}
-	.company-type {
-		margin-top: 24%;
-		margin-bottom: auto;
-	}
 }
